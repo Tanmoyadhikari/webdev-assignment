@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic JS Template</title>
+  <style>
+    /* Basic CSS styling */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello, JavaScript!</h1>
+  <button onclick="sayHello()">Click Me</button>
+
+  <script>
+    // Basic JavaScript Function
+    function sayHello() {
+      alert("Hello from JavaScript!");
+      console.log("Button was clicked.");
+    }
+
+    // You can also define variables and functions here
+    let counter = 0;
+
+    function incrementCounter() {
+      counter++;
+      console.log("Counter:", counter);
+    }
+
+    // Run something on page load
+    window.onload = function() {
+      console.log("Page loaded and ready.");
+    }
+  </script>
+
+</body>
+</html>
